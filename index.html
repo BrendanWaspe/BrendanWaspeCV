@@ -5,10 +5,87 @@
 <title>Brendan Waspe CV</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" type="text/css" href="Style.css">    
-<link rel="icon" type="image/png" href="icons8-computer-24.png">
+<link rel="icon" type="image/png" href="Computer Icon.png">
 <script src="Script.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="Left_Side">
+            <div class="modal" id="customModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <p>Don't pinch me 😡</p>
+                </div>
+            </div>
+            <div class="profileText">
+                <div class="imgBx">
+                    <img id="profileImage" src="Profile.jpg" onclick="showCustomModal()">
+                </div>
+                <h2>Brendan Waspe<br><span>Computerscience student</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h3 class="title">Contact info </h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">(+27) 073-134-7075</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
+                        <span class="text">brendanwaspe@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">South Africa, Gauteng, Johannesburg</span>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/brendan-waspe-a687602b5/?originalSubdomain=za" target="_blank">
+                            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></i></span>
+                            My linkedin page
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/BrendanWaspe" target="_blank">
+                            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                            My github page
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2022-2024</h5>
+                        <h4>BSc IT</h4>
+                        <h4>NWU</h4>
+                    </li>
+                    <li>
+                        <h5>2021</h5>
+                        <h4>Matriculated</h4>
+                        <h4>Hoerskool Roodepoort</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo language">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">Afrikaans</span>
+                        <span class="percent">
+                            <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 95%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
 </body>
 </html>
