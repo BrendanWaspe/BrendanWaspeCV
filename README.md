@@ -15,8 +15,8 @@ Containers will be used to structure the CV.
 
 The CV includes: 
     1. Profile picture
-    2. Interactive social links to platforms such as GitHub and LinkedIn
-    3. General information such as contact details, languages, city location etc
+    2. Interactive social links to platforms such as GitHub, LinkedIn, and CV
+    3. General information such as contact details, languages, city location, driving license etc
     4. Profile summary
     5. Professional skills 
     6. Projects
